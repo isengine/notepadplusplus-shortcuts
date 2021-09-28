@@ -1,0 +1,980 @@
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="44051" Ctrl="yes" Alt="yes" Shift="no" Key="49" />
+        <Shortcut id="44052" Ctrl="yes" Alt="yes" Shift="no" Key="50" />
+        <Shortcut id="44053" Ctrl="yes" Alt="yes" Shift="no" Key="51" />
+        <Shortcut id="44054" Ctrl="yes" Alt="yes" Shift="no" Key="52" />
+        <Shortcut id="44055" Ctrl="yes" Alt="yes" Shift="no" Key="53" />
+        <Shortcut id="44056" Ctrl="yes" Alt="yes" Shift="no" Key="54" />
+        <Shortcut id="44057" Ctrl="yes" Alt="yes" Shift="no" Key="55" />
+        <Shortcut id="44058" Ctrl="yes" Alt="yes" Shift="no" Key="56" />
+        <Shortcut id="44034" Ctrl="no" Alt="yes" Shift="no" Key="13" />
+        <Shortcut id="42068" Ctrl="yes" Alt="yes" Shift="yes" Key="85" />
+        <Shortcut id="42070" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="10001" Ctrl="no" Alt="yes" Shift="yes" Key="13" />
+        <Shortcut id="44084" Ctrl="no" Alt="yes" Shift="no" Key="81" />
+        <Shortcut id="44085" Ctrl="no" Alt="yes" Shift="no" Key="87" />
+        <Shortcut id="44080" Ctrl="no" Alt="yes" Shift="no" Key="77" />
+        <Shortcut id="41019" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44061" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44063" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44062" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44068" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44067" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44066" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44065" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="44064" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="convert_spaces" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam=" {4}" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="\t" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\s*$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam=" {2,}" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam=" " />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="convert_array" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="&apos;" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&quot;' />
+            <Action type="3" message="1702" wParam="0" lParam="896" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="=&gt;" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam=":" />
+            <Action type="3" message="1702" wParam="0" lParam="896" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="convert_associate_array" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="&apos;" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&quot;' />
+            <Action type="3" message="1702" wParam="0" lParam="896" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="=&gt;" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam=":" />
+            <Action type="3" message="1702" wParam="0" lParam="896" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="[" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="{" />
+            <Action type="3" message="1702" wParam="0" lParam="896" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="]" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="}" />
+            <Action type="3" message="1702" wParam="0" lParam="896" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="convert_quotes" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="&apos;" />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="\&apos;" />
+            <Action type="3" message="1702" wParam="0" lParam="896" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam='&quot;' />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='\&quot;' />
+            <Action type="3" message="1702" wParam="0" lParam="896" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="php_print" Ctrl="no" Alt="yes" Shift="no" Key="80">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="pri" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="nt_" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="r()" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_echo" Ctrl="no" Alt="yes" Shift="no" Key="69">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ech" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="o ;" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_array" Ctrl="no" Alt="yes" Shift="no" Key="221">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2[\r\n$1\t&apos;&apos; =&gt; &apos;&apos;\r\n$1];\r\n" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_object" Ctrl="no" Alt="yes" Shift="no" Key="219">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='$1$2{\r\n$1\t&quot;&quot; : &quot;&quot;\r\n$1}\r\n' />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_array_insert" Ctrl="no" Alt="yes" Shift="yes" Key="221">
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="[,;]\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="=&gt;[ \t]*?\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="=&gt; null-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2,\r\n$1&apos;&apos; =&gt; " />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_object_insert" Ctrl="no" Alt="yes" Shift="yes" Key="219">
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="[,;]\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam=":[ \t]*?\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam=": null-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='$1$2,\r\n$1&quot;&quot; : ' />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_function" Ctrl="no" Alt="yes" Shift="no" Key="70">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="fun" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="cti" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="on" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" ()" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" {" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="}" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-\}$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2\r\n$1\t\r\n$1\t/*\r\n$1\t*  \r\n$1\t*/\r\n$1\t\r\n$1\t\r\n$1\t\r\n$1}\r\n$1\r\n$1" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_ds" Ctrl="no" Alt="yes" Shift="no" Key="191">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="DS" />
+        </Macro>
+        <Macro name="php_dot" Ctrl="no" Alt="yes" Shift="no" Key="190">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" . " />
+        </Macro>
+        <Macro name="php_aposes" Ctrl="no" Alt="yes" Shift="no" Key="222">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&apos;&apos;" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_quotes" Ctrl="no" Alt="yes" Shift="yes" Key="222">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam='&quot;&quot;' />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_aquos" Ctrl="yes" Alt="yes" Shift="yes" Key="222">
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x00AB;" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x00BB;" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_tag" Ctrl="no" Alt="yes" Shift="no" Key="188">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;&gt;" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_tags" Ctrl="no" Alt="yes" Shift="yes" Key="188">
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\-\=\:xXx\:\=\-(\s*)((\w*)?\s)?(.*)$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;$3&gt;\r\n$4&lt;/$3&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_end" Ctrl="no" Alt="yes" Shift="no" Key="186">
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(;?\s*;?)(\-\=\:xXx\:\=\-)$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$2" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2;\r\n$1" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_foreach" Ctrl="no" Alt="yes" Shift="no" Key="50">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="for" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="eac" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="h (" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="$" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" as" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" $k" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ey " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="=&gt; " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="$it" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="em)" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" {" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="}" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-\}$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2\r\n$1\t\r\n$1}\r\n$1unset\(\$key, \$item\);" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_if" Ctrl="no" Alt="yes" Shift="no" Key="51">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="if" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" ()" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" {" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="}" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-\}$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2\r\n$1\t\r\n$1}" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_elseif" Ctrl="no" Alt="yes" Shift="no" Key="52">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" el" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="se" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="if" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" ()" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" {" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="}" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-\}$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2\r\n$1\t\r\n$1}" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_else" Ctrl="no" Alt="yes" Shift="no" Key="53">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" el" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="se" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" {" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="}" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-\}$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2\r\n$1\t\r\n$1}" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_true" Ctrl="no" Alt="yes" Shift="no" Key="107">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="tr" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ue" />
+        </Macro>
+        <Macro name="php_false" Ctrl="no" Alt="yes" Shift="no" Key="109">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="fal" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="se" />
+        </Macro>
+        <Macro name="php_null" Ctrl="no" Alt="yes" Shift="yes" Key="109">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="nu" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ll" />
+        </Macro>
+        <Macro name="php_phpcode" Ctrl="no" Alt="yes" Shift="no" Key="49">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;?" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="php" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="  " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="?&gt;" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_echocode" Ctrl="no" Alt="yes" Shift="yes" Key="49">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;?=" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="  " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="?&gt;" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_iscode" Ctrl="no" Alt="yes" Shift="yes" Key="192">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;?" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="php" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="nam" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="esp" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ace" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="is;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="use" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" is" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="\He" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="lpe" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="rs\" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="Sys" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="tem" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=";" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="use" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" is" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="\He" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="lpe" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="rs\" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="Str" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ing" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="s;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="use" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" is" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="\He" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="lpe" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="rs\" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="Obj" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ect" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="s;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="use" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" is" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="\Ma" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ste" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="rs\" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="Vie" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="w;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="$vi" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ew " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="= V" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="iew" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="::" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="get" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="Ins" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="tan" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ce" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="();" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+			<Action type="1" message="2170" wParam="0" lParam="0" sParam="?&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+        </Macro>
+        <Macro name="php_nav_front" Ctrl="no" Alt="yes" Shift="no" Key="39">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="[&lt;&gt;\[\]\{\}]" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1723" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_nav_back" Ctrl="no" Alt="yes" Shift="no" Key="37">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="[&lt;&gt;\[\]\{\}]" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1721" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="php_sel_front" Ctrl="no" Alt="yes" Shift="yes" Key="39">
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="&lt;.+?&gt;|\[.+?\]|\{.+?\}" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1723" sParam="" />
+        </Macro>
+        <Macro name="php_sel_back" Ctrl="no" Alt="yes" Shift="yes" Key="37">
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="&lt;.+?&gt;|\[.+?\]|\{.+?\}" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1721" sParam="" />
+        </Macro>
+        <Macro name="html_tag_div" Ctrl="no" Alt="yes" Shift="yes" Key="68">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;div&gt;\r\n$1\t$2$3\r\n$1&lt;/div&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_h1" Ctrl="no" Alt="yes" Shift="yes" Key="97">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;h1&gt;\r\n$2$3&lt;/h1&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_h2" Ctrl="no" Alt="yes" Shift="yes" Key="98">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;h2&gt;\r\n$2$3&lt;/h2&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_h3" Ctrl="no" Alt="yes" Shift="yes" Key="99">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;h3&gt;\r\n$2$3&lt;/h3&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_p" Ctrl="no" Alt="yes" Shift="yes" Key="80">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;p&gt;\r\n$2$3&lt;/p&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_span" Ctrl="no" Alt="yes" Shift="yes" Key="83">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;span&gt;\r\n$2$3&lt;/span&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_nav" Ctrl="no" Alt="yes" Shift="no" Key="78">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;nav&gt;\r\n$1\t$2$3\r\n$1&lt;/nav&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_ul" Ctrl="no" Alt="yes" Shift="yes" Key="85">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;ul&gt;\r\n$1\t$2$3\r\n$1&lt;/ul&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_li" Ctrl="no" Alt="yes" Shift="yes" Key="76">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1&lt;li&gt;\r\n$2$3&lt;/li&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_a" Ctrl="no" Alt="yes" Shift="yes" Key="65">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?&gt;[ \t]{0,2}\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2&gt;\r\n$1-=:xXx:=-" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(\t*)(.*)?\-\=\:xXx\:\=\-(.*)?$" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='$1&lt;a href=&quot;&quot;&gt;\r\n$1\t$2$3\r\n$1&lt;/a&gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="0" message="2300" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_i" Ctrl="no" Alt="yes" Shift="yes" Key="73">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="i " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="cla" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ss" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam='=&quot;&quot;' />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/i" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="html_tag_br" Ctrl="no" Alt="yes" Shift="yes" Key="66">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="br" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+        </Macro>
+        <Macro name="html_tag_hr" Ctrl="no" Alt="yes" Shift="yes" Key="72">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="hr" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+        </Macro>
+        <Macro name="html_table" Ctrl="no" Alt="yes" Shift="yes" Key="84">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ta" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ble" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="th" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ead" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="tr" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="th" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/th" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/tr" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/th" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ead" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="tb" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ody" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="tr" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="td" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/td" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/tr" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/tb" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ody" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/ta" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="ble" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+        </Macro>
+        <Macro name="html_add_class" Ctrl="no" Alt="yes" Shift="yes" Key="67">
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="-=:" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="xXx" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":=-" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(&lt;/.*?&gt;)(\-\=\:xXx\:\=\-)(&lt;\w)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$3$2" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(&lt;/.*?&gt;)\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(&lt;/[^&gt;]*?)\-\=\:xXx\:\=\-?(.*?&gt;)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$2" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(&lt;[^&gt;]*?)\-\=\:xXx\:\=\-?/(.*?&gt;)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1/$2" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(\s+)(\-\=\:xXx\:\=\-)(\s*)?(&lt;\w)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$3$4$2" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="^(.*)&gt;([^&lt;&gt;]*)?(\-\=\:xXx\:\=\-)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="$1$3&gt;$2" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="&lt;([^&lt;&gt;]*)?(\-\=\:xXx\:\=\-)([^&lt;&gt;]*)?&gt;" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="&lt;$1$3 $2&gt;" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\s*\-\=\:xXx\:\=\-" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam=' class=&quot;&quot;' />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam='class=&quot;&quot;' />
+            <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1" sParam="" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="commit_dslashes" Ctrl="no" Alt="yes" Shift="yes" Key="111">
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="// " />
+        </Macro>
+        <Macro name="commit_php" Ctrl="no" Alt="yes" Shift="yes" Key="106">
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/*" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="*/" />
+        </Macro>
+        <Macro name="commit_hash" Ctrl="no" Alt="yes" Shift="yes" Key="51">
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="# " />
+        </Macro>
+        <Macro name="commit_html" Ctrl="no" Alt="yes" Shift="yes" Key="50">
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="--&gt;" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;!" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="--" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="md_h1" Ctrl="no" Alt="yes" Shift="no" Key="97">
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="# " />
+        </Macro>
+        <Macro name="md_h2" Ctrl="no" Alt="yes" Shift="no" Key="98">
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="## " />
+        </Macro>
+        <Macro name="md_h3" Ctrl="no" Alt="yes" Shift="no" Key="99">
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="### " />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Launch in Firefox" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in IE" Ctrl="yes" Alt="yes" Shift="yes" Key="73">iexplore &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Chrome" Ctrl="yes" Alt="yes" Shift="yes" Key="82">chrome &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Safari" Ctrl="yes" Alt="yes" Shift="yes" Key="70">safari &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Get php help" Ctrl="no" Alt="yes" Shift="no" Key="112">http://www.php.net/%20$(CURRENT_WORD)</Command>
+        <Command name="Google Search" Ctrl="no" Alt="yes" Shift="no" Key="113">http://www.google.com/search?q=$(CURRENT_WORD)</Command>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="yes" Shift="no" Key="114">http://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="Open file" Ctrl="no" Alt="yes" Shift="no" Key="116">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD)</Command>
+        <Command name="Open in another instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD) -nosession -multiInst</Command>
+        <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+    </UserDefinedCommands>
+    <PluginCommands>
+        <PluginCommand moduleName="QuickText.dll" internalID="0" Ctrl="no" Alt="yes" Shift="no" Key="192" />
+    </PluginCommands>
+    <ScintillaKeys>
+        <ScintKey ScintID="2390" menuCmdID="0" Ctrl="yes" Alt="yes" Shift="no" Key="191" />
+        <ScintKey ScintID="2392" menuCmdID="0" Ctrl="yes" Alt="yes" Shift="no" Key="220" />
+        <ScintKey ScintID="2373" menuCmdID="44033" Ctrl="yes" Alt="yes" Shift="no" Key="111" />
+        <ScintKey ScintID="2333" menuCmdID="44023" Ctrl="yes" Alt="yes" Shift="no" Key="107" />
+        <ScintKey ScintID="2334" menuCmdID="44024" Ctrl="yes" Alt="yes" Shift="no" Key="109" />
+        <ScintKey ScintID="2337" menuCmdID="0" Ctrl="yes" Alt="no" Shift="yes" Key="76" />
+        <ScintKey ScintID="2338" menuCmdID="0" Ctrl="yes" Alt="no" Shift="no" Key="76">
+            <NextKey Ctrl="yes" Alt="no" Shift="no" Key="46" />
+        </ScintKey>
+        <ScintKey ScintID="2335" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2336" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2428" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2429" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </ScintillaKeys>
+</NotepadPlus>

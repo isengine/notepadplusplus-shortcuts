@@ -1,0 +1,151 @@
+<Action type="0" message="2302" wParam="0" lParam="0" sParam="" /> // up
+<Action type="0" message="2300" wParam="0" lParam="0" sParam="" /> // down
+<Action type="0" message="2306" wParam="0" lParam="0" sParam="" /> // right
+<Action type="0" message="2304" wParam="0" lParam="0" sParam="" /> // left
+<Action type="0" message="2453" wParam="0" lParam="0" sParam="" /> // home
+<Action type="0" message="2451" wParam="0" lParam="0" sParam="" /> // end
+<Action type="0" message="2327" wParam="0" lParam="0" sParam="" /> // tab
+<Action type="0" message="2326" wParam="0" lParam="0" sParam="" /> // delete
+
+// enter:
+<Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
+<Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
+
+// enter symbol 1...3
+<Action type="1" message="2170" wParam="0" lParam="0" sParam="*" />
+
+<Action type="2" message="0" wParam="42001" lParam="0" sParam="" /> // cut
+<Action type="0" message="2179" wParam="0" lParam="0" sParam="" /> // paste
+
+Горячие клавиши:
+
+Alt + P ==> Напечатать оператор [ print ]
+Alt + E ==> Напечатать оператор [ echo ]
+Alt + F ==> Напечатать оператор [ function ]
+Alt + Y ==> Напечатать оператор [ empty ]
+Alt + N ==> Напечатать оператор [ !empty ]
+
+Alt + ] ==> Напечатать шаблон php массива
+Alt + Shift + ] ==> Добавить строку в php массив
+
+Alt + { ==> Напечатать шаблон json объекта
+Alt + Shift + { ==> Добавить строку в json объект
+
+Alt + < ==> Напечатать угловые скобки для тегов, если в строке есть содержимое, оно становится именем тега [ <...>...</...> ]
+если есть пробел, то первое слово становится тегом, а остальные - содержимым [ 1 2 ] -> [ <1>2</1> ]
+если строка содержит только одно слово, оно становится содержимым [ 1 ] -> [ <>1</> ]
+если строка содержит только одно слово с пробелом в конце, оно становится тегом [ 1  ] -> [ <1></1> ]
+
+Alt + / ==> Напечатать системную константу [ DS = DIRECTORY_SEPARATOR ]
+Alt + . ==> Напечатать точку, разделенную пробелами [ . ]
+Alt + ' ==> Напечатать пару одинарных кавычек [ '' ]
+Alt + Shift + ' ==> Напечатать пару двойных кавычек [ "" ]
+Alt + Shift + Ctrl + ' ==> Заключить строку в двойные угловые кавычки [ «‎...» ]
+
+Alt + ; ==> Завершить строку - если нет символа [ ; ], то поставить его, а также убрать лишние пробелы
+Alt + - ==> Напечатать [false]
+Alt + = ==> Напечатать [true]
+
+Alt + 1 ==> Напечатать оператор [ foreach ] с базовым содержимым
+Alt + 2 ==> Напечатать оператор [ if ] с базовым содержимым
+Alt + 3 ==> Напечатать оператор [ elseif ] с базовым содержимым
+Alt + 4 ==> Напечатать оператор [ else ] с базовым содержимым
+
+Alt + Shift + # ==> Закомментировать строку символом хэша [ # ... ]
+Alt + Shift + ! ==> Закомментировать строку в формате html [ <!--...--> ]
+Alt + Shift + num / ==> Закомментировать строку двойным слешем [ //... ]
+Alt + Shift + num * ==> Закомментировать строку слешем со звездочкой [ /*...*/ ]
+
+Alt + LEFT  ==> Переместиться по тегам или скобкам назад
+Alt + RIGHT ==> Переместиться по тегам или скобкам вперед
+Alt + SHIFT + LEFT  ==> Найти и выделить тег или содержимое скобок назад
+Alt + SHIFT + RIGHT ==> Найти и выделить тег или содержимое скобок вперед
+
+Ctrl + DEL  ==> Удалить строку
+Ctrl + L    ==> Удалить строку
+
+Управление окнами:
+
+Alt + F1             ==> Найти выделенное слово в справочнике PHP
+Alt + ENTER          ==> Поверх всех окон
+Alt + SHIFT + ENTER  ==> Переместить в другую область
+
+Alt + Q ==> Список функций
+Alt + W ==> Папка как проект
+Alt + M ==> Карта документа
+
+Alt + SHIFT + A - a
+Alt + SHIFT + B - br
+Alt + SHIFT + D - div
+Alt + SHIFT + H - hr
+Alt + SHIFT + I - i
+Alt + SHIFT + L - li
+Alt + SHIFT + N - nav menu
+Alt + SHIFT + P - p
+Alt + SHIFT + S - span
+Alt + SHIFT + T - table
+Alt + SHIFT + U - ul
+Alt + SHIFT + C - add class
+Alt + SHIFT + num 1...3 - h1...h3
+
+Markdown-заголовки
+
+Alt + num 1...3 - #...###
+
+isEngine framework helpers:
+
+xuhc
+-o-i-f-r
+
+a add()
+b 
+c -Config
+d Data
+e Entry
+f first()
+g get()
+i $item
+j Parser::fromJson()
+k Key
+l last()
+m match()
+n !System::set()
+o Objects::
+p Prepare::
+q System::debug(, '!q')
+r replace()
+s Strings::
+t System::type()
+v $view
+w 
+x +set()
+y System::set()
+z len()
+~ template...
+1 $view -> get('');
+2 Objects::each($..., function($item, $key){ ... });
+3 ::getInstance()
+4 
+5 
+6 
+7 
+8 
+9 
+0 
+>|.  -> 
++|= set()
+- reset()
+
+===
+
+namespace is;
+
+use is\Helpers\System;
+use is\Helpers\Objects;
+use is\Helpers\Strings;
+use is\Components;
+use is\Masters\View;
+
+$view = View::getInstance();
+
+===
