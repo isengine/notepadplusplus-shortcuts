@@ -914,10 +914,30 @@
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="// " />
         </Macro>
         <Macro name="commit_php" Ctrl="no" Alt="yes" Shift="yes" Key="106">
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="*/" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="/*" />
             <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
-            <Action type="1" message="2170" wParam="0" lParam="0" sParam="*/" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="uncommit_php" Ctrl="yes" Alt="yes" Shift="yes" Key="106">
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
         </Macro>
         <Macro name="commit_hash" Ctrl="no" Alt="yes" Shift="yes" Key="51">
             <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
@@ -929,8 +949,29 @@
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="--&gt;" />
             <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;!" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="--" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="uncommit_html" Ctrl="yes" Alt="yes" Shift="yes" Key="50">
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+			<Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2451" wParam="0" lParam="0" sParam="" />
         </Macro>
